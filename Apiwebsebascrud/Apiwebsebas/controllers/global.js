@@ -89,7 +89,7 @@ export function userstate() {
       console.log(uid)
       await displayUserData(); // Ahora displayUserData está definida en este módulo
     } else {
-      window.location.href="../index.html"
+      window.location.href="./index.html"
     }
   });
 }
@@ -160,8 +160,7 @@ export const displayUserData = async () => {
               <th>Cedula</th>
               <th>Celular</th>
               <th></th>
-            </tr>
-        `;
+            </tr>`;
           userData.forEach((doc) => {
             let docData = doc.data();
             content += `
