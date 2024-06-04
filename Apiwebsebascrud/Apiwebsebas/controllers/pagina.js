@@ -1,5 +1,5 @@
 import { userstate, updateData, logout, deleteAccount, displayUserData } from "./global.js";
-import { auth } from './global.js';
+import { auth } from "./global.js";
 
 userstate()
 
